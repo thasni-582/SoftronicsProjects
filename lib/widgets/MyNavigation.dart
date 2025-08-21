@@ -1,4 +1,5 @@
 import 'package:basics/carQuikApp1208/profile.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../carQuikApp1208/carBrand_ui.dart';
@@ -35,27 +36,27 @@ class _MyNavigationState extends State<MyNavigation> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
-            backgroundColor:   Color(0xff162542),
+            backgroundColor:   Colors.white
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.heart_broken_rounded),
+            icon: Icon(CupertinoIcons.heart),
             label: 'Search',
-            backgroundColor:  Color(0xff162542),
+            backgroundColor:   Colors.white
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.message),
             label: 'Search',
-            backgroundColor:  Color(0xff162542),
+            backgroundColor:  Colors.white
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'Profile',
-            backgroundColor:  Color(0xff162542),
+            backgroundColor:   Colors.white
           ),
         ],
         type: BottomNavigationBarType.shifting,
         currentIndex: selectedIndex,
-        selectedItemColor: Colors.black,
+        selectedItemColor: Colors.black,unselectedItemColor: Colors.black,
         iconSize: 40,onTap: _onItemTaped,elevation: 5,
       ),
     );

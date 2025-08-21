@@ -1,4 +1,5 @@
 import 'package:basics/Layout2.dart';
+import 'package:basics/alertUi2108/alert.dart';
 import 'package:basics/carQuikApp1208/carBrand_ui.dart';
 import 'package:basics/carQuikApp1208/inbox.dart';
 import 'package:basics/carQuikApp1208/profile.dart';
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home:MyNavigation(),
+      home:Alert(),
 
     );
   }
