@@ -44,7 +44,7 @@ class _MyNavigationState extends State<MyNavigation> {
             backgroundColor:   Colors.white
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.message),
+            icon: Icon(Icons.message_outlined),
             label: 'Search',
             backgroundColor:  Colors.white
           ),
@@ -54,9 +54,9 @@ class _MyNavigationState extends State<MyNavigation> {
             backgroundColor:   Colors.white
           ),
         ],
-        type: BottomNavigationBarType.shifting,
+       type: BottomNavigationBarType.shifting,
         currentIndex: selectedIndex,
-        selectedItemColor: Colors.black,unselectedItemColor: Colors.black,
+        selectedItemColor : Colors.black,unselectedItemColor: Colors.black,
         iconSize: 40,onTap: _onItemTaped,elevation: 5,
       ),
     );

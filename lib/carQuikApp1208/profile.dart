@@ -8,7 +8,7 @@ class Profile extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Column(
-        children: <Widget>[
+        children: [
           Row(
             children: [
               Padding(
@@ -32,13 +32,13 @@ class Profile extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 60,
-                    backgroundImage: AssetImage('images.jpeg'),
+                    backgroundImage: AssetImage('assets/images.jpeg'),
                   ),
                 ],
               ),
             ),
           ),
-          Positioned(
+         /* Positioned(
             bottom: 35,
             right: 35,
             child: Container(
@@ -55,7 +55,7 @@ class Profile extends StatelessWidget {
                 ),
               ),
             ),
-          ),
+          ),*/
           Text(
             'Karthy Manual',
             style: TextStyle(

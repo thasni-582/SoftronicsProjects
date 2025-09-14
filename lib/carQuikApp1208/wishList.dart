@@ -26,8 +26,8 @@ class Wishlist extends StatelessWidget {
           ),
           SizedBox(height: 10),
           Container(
-            height: 230,
-            width: 390,
+            height: 200,
+            width: 380,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               image: DecorationImage(
@@ -64,8 +64,8 @@ class Wishlist extends StatelessWidget {
           ),
           SizedBox(height: 30),
           Container(
-            height: 230,
-            width: 390,
+            height: 200,
+            width: 380,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               image: DecorationImage(
@@ -102,8 +102,8 @@ class Wishlist extends StatelessWidget {
           ),
           SizedBox(height: 30),
           Container(
-            height: 230,
-            width: 390,
+            height: 200,
+            width: 380,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               image: DecorationImage(
